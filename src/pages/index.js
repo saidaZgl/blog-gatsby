@@ -1,15 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import Bio from "../components/bio"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <Layout page="1">
-    <SEO title="Home" />
-    <h1>Hey Saïda!</h1>
+    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <h1>{data.site.siteMetadata.title}</h1>
     <Bio />
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
@@ -20,5 +20,16 @@ const IndexPage = () => (
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        author
+      }
+    }
+  }
+`
 
 export default IndexPage
