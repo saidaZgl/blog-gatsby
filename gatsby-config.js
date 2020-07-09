@@ -2,7 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `Mon Blog Tech`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `Saïda Zghal`,
+    author: `Saïda`,
+    bio: `Dev JS | Passionnée | Autodidacte, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+    authorImage: `https://thumbs.dreamstime.com/z/avatar-de-programmeur-langue-logiciel-110589729.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

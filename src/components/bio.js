@@ -1,21 +1,36 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, StaticQuery, graphql } from "gatsby"
 
 import { List, Avatar, Divider } from "antd"
 
 const Bio = () => (
-  <List.Item>
-    <List.Item.Meta
-      avatar={
-        <Avatar
-          size={64}
-          src="https://thumbs.dreamstime.com/z/avatar-de-programmeur-langue-logiciel-110589729.jpg"
-        />
+  <StaticQuery
+    query={graphql`
+      query {
+        site {
+          siteMetadata {
+            author
+            bio
+            authorImage
+          }
+        }
       }
-      title={<Link to="/about">Saïda Zghal</Link>}
-      description="Dev JS | Passionnée | Autodidacte, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    />
-  </List.Item>
+    `}
+    render={data => (
+      <>
+        <Divider orientation="left">Author</Divider>
+        <List.Item>
+          <List.Item.Meta
+            avatar={
+              <Avatar size={64} src={data.site.siteMetadata.authorImage} />
+            }
+            title={<Link to="/about">{data.site.siteMetadata.author}</Link>}
+            description={data.site.siteMetadata.bio}
+          />
+        </List.Item>
+      </>
+    )}
+  />
 )
 
 export default Bio
