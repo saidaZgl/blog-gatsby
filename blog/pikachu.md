@@ -1,20 +1,25 @@
 ---
 slug: pikachu
-date: "2019-02-02"
+date: 2019-02-02
 title: Pikachu top
 ---
+# React
 
-# Pikachu
+Grâce à React, il est facile de créer des interfaces utilisateurs interactives. Définissez des vues simples pour chaque état de votre application, et lorsque vos données changeront, React mettra à jour, de façon optimale, juste les composants qui en auront besoin.
 
-**Pikachu** (Japanese: ピカチュウ Hepburn: Pikachū, pronounced [pikatɕɯː], English: /ˈpiːkətʃuː/) are a species of Pokémon, fictional creatures that appear in an assortment of video games, animated television shows and movies, trading card games, and comic books licensed by The Pokémon Company, a Japanese corporation. **They are yellow rodent-like creatures with powerful electrical abilities.**
+Des vues déclaratives rendent votre code plus prévisible et plus facile à déboguer.
 
-![Pikachu](https://upload.wikimedia.org/wikipedia/en/a/a6/Pok%C3%A9mon_Pikachu_art.png)
+Créez des composants autonomes qui maintiennent leur propre état, puis assemblez-les pour créer des interfaces utilisateurs complexes.
 
-In most vocalized appearances, including the anime and certain video games, they are primarily voiced by _Ikue Ōtani_.
+Dans la mesure où les composants sont écrits en JavaScript plutôt que sous la forme de gabarits, vous pouvez facilement utiliser des données complexes dans vos applications et garder l’état hors du DOM.
+
+![Pikachu](assets/react.png)
+
+In most vocalized appearances, including the anime and certain video games, they are primarily voiced by *Ikue Ōtani*.
 
 Pikachu will make his first live-action appearance as Detective Pikachu as part of the main cast on the upcoming film Pokémon: Detective Pikachu, played in CGI and voiced by Ryan Reynolds.
 
-The Pikachu design was conceived by _Atsuko Nishida_ and finalized by Ken Sugimori. Pikachu first appeared in Pokémon Red and Green in Japan, and later in the first internationally released Pokémon video games, Pokémon Red and Blue, for the original Game Boy.
+The Pikachu design was conceived by *Atsuko Nishida* and finalized by Ken Sugimori. Pikachu first appeared in Pokémon Red and Green in Japan, and later in the first internationally released Pokémon video games, Pokémon Red and Blue, for the original Game Boy.
 
 Like other species of Pokémon, **Pikachu are often captured and groomed by humans to fight other Pokémon for sport**. Pikachu are one of the most well-known varieties of Pokémon, largely because Pikachu is a central character in the Pokémon anime series.
 
