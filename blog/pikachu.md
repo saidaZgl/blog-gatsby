@@ -8,7 +8,7 @@ title: Pikachu top
 
 **Pikachu** (Japanese: ピカチュウ Hepburn: Pikachū, pronounced [pikatɕɯː], English: /ˈpiːkətʃuː/) are a species of Pokémon, fictional creatures that appear in an assortment of video games, animated television shows and movies, trading card games, and comic books licensed by The Pokémon Company, a Japanese corporation. **They are yellow rodent-like creatures with powerful electrical abilities.**
 
-![Pikachu](https://upload.wikimedia.org/wikipedia/en/a/a6/Pok%C3%A9mon_Pikachu_art.png)
+![React](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png)
 
 In most vocalized appearances, including the anime and certain video games, they are primarily voiced by _Ikue Ōtani_.
 
