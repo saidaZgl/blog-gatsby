@@ -1,7 +1,7 @@
 ---
-slug: pikachu
+slug: react
 date: 2019-02-02
-title: Pikachu top
+title: React JS
 ---
 # React
 
