@@ -1,11 +1,32 @@
 import React from "react"
+import Layout from "../components/layout"
+import Bio from "../components/bio"
+import SEO from "../components/seo"
+import { graphql, Link } from "gatsby"
 
-const Post = () => {
+export default ({ data }) => {
+  const { title, date } = data.markdownRemark.frontmatter
+  const __html = data.markdownRemark.html
+
   return (
-    <div>
-      <h1>Post</h1>
-    </div>
+    <Layout>
+      <SEO title={title} description={data.markdownRemark.excerpt} />
+      <p>{date}</p>
+      <div dangerouslySetInnerHTML={{ __html }} />
+      <Bio />
+    </Layout>
   )
 }
 
-export default Post
+export const query = graphql`
+  query($slug: String!) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+      html
+      excerpt
+      frontmatter {
+        title
+        date(formatString: "DD MMMM, YYYY")
+      }
+    }
+  }
+`
