@@ -13,7 +13,7 @@ Créez des composants autonomes qui maintiennent leur propre état, puis assembl
 
 Dans la mesure où les composants sont écrits en JavaScript plutôt que sous la forme de gabarits, vous pouvez facilement utiliser des données complexes dans vos applications et garder l’état hors du DOM.
 
-![Pikachu](assets/react.png)
+![React](assets/react.png)
 
 In most vocalized appearances, including the anime and certain video games, they are primarily voiced by *Ikue Ōtani*.
 
