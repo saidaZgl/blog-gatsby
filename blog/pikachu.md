@@ -1,14 +1,22 @@
 ---
-slug: pikachu
-date: "2019-02-02"
-title: Pikachu top
+slug: react
+date: 2019-02-02
+title: React JS
 ---
 
-# Pikachu
+# React
 
-**Pikachu** (Japanese: ピカチュウ Hepburn: Pikachū, pronounced [pikatɕɯː], English: /ˈpiːkətʃuː/) are a species of Pokémon, fictional creatures that appear in an assortment of video games, animated television shows and movies, trading card games, and comic books licensed by The Pokémon Company, a Japanese corporation. **They are yellow rodent-like creatures with powerful electrical abilities.**
+Grâce à React, il est facile de créer des interfaces utilisateurs interactives. Définissez des vues simples pour chaque état de votre application, et lorsque vos données changeront, React mettra à jour, de façon optimale, juste les composants qui en auront besoin.
+
+Des vues déclaratives rendent votre code plus prévisible et plus facile à déboguer.
 
 ![React](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png)
+
+Créez des composants autonomes qui maintiennent leur propre état, puis assemblez-les pour créer des interfaces utilisateurs complexes.
+
+Dans la mesure où les composants sont écrits en JavaScript plutôt que sous la forme de gabarits, vous pouvez facilement utiliser des données complexes dans vos applications et garder l’état hors du DOM.
+
+![React](assets/react.png)
 
 In most vocalized appearances, including the anime and certain video games, they are primarily voiced by _Ikue Ōtani_.
 
